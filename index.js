@@ -12,6 +12,12 @@ function breakOut(array, changeValue, stopValue){
 
 function keepGoing(array, changeValue, skipValue){
 
+  for (let i=0; i < array.length; i++){
+    
+  }//end for
+
+  
+  return array;
 }
 
 function findBy(array, findFn){
