@@ -34,7 +34,7 @@ function findBy(array, findFn){
     }
  }//end for
 
- if (tempFlag == 0)
+ if (tempFlag === 0)
    return null;
 
 }
