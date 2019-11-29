@@ -26,12 +26,12 @@ function keepGoing(array, changeValue, skipValue){
 function findBy(array, findFn){
   var temp = findFn();
   var tempFlag = 0;
-  
+
   for (let i = 0; i < array.length; i++){
-   
+
     if (array[i] == temp){
       tempFlag = 1
-    }   
+    }
  }//end for
 
  if tempFlag == 0
