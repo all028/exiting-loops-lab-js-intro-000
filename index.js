@@ -28,8 +28,8 @@ function findBy(array, findFn){
 
   if (found != -1)
     return found;
-  else{
+  else
     return null;
-  })
+  )
 
 }
