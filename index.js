@@ -24,12 +24,12 @@ function keepGoing(array, changeValue, skipValue){
 }
 
 function findBy(array, findFn){
-  var found = array.indexOf(findFn)
+  var found = array.find(function(findFn){
 
   if (found != -1)
     return found;
   else{
     return null;
-  }
+  })
 
 }
