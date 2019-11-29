@@ -24,12 +24,17 @@ function keepGoing(array, changeValue, skipValue){
 }
 
 function findBy(array, findFn){
-  var found = array.find(function(findFn){
+  var temp = findFn();
+  var tempFlag = 0;
+  
+  for (let i = 0; i < array.length; i++){
+   
+    if (array[i] == temp){
+      tempFlag = 1
+    }   
+ }//end for
 
-  if (found != -1)
-    return found;
-  else
-    return null;
-  )
+ if tempFlag == 0
+   return null;
 
 }
